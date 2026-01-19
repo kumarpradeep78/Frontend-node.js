@@ -8,7 +8,7 @@ const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:8000'
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.listen(port, () => {
+app.listen(port,'0.0.0.0', () => {
   console.log(`Server is running on http://localhost:${port}`);
 })
 
