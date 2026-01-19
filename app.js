@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-const port=8080
+const port=3000
 app.set('view engine', 'ejs');
 const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:8000'
 
