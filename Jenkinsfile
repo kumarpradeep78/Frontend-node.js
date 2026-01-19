@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/<username>/express-frontend.git'
+                git 'https://github.com/kumarpradeep78/Frontend-node.js.git'
             }
         }
 
